@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigSet>
+  <RankSet>
+    <!--奖项设置-->
+    <rank name="特等奖" max="1"  prize="奇瑞QQ" />
+    <rank name="一等奖" max="3"  prize="笔记本" />
+    <rank name="二等奖" max="10"  prize="电动车" />
+    <rank name="三等奖" max="50"  prize="梦洁三件套" />
+    <rank name="纪念奖" max="100"  prize="台历" />
+  </RankSet>
+  <PersonList>
+    <!--抽奖名单-->
+    <person id="1" name="zhang3" photoName="" />
+    <person id="2" name="li4" photoName="" />
+    <person id="3" name="wang5" photoName="" />
+    <person id="4" name="zhao6" photoName="" />
+    <person id="5" name="a1" photoName=""  />
+    <person id="6" name="a2" photoName=""  />
+    <person id="7" name="a3" photoName=""  />
+    <person id="8" name="a4" photoName=""  />
+    <person id="9" name="a5" photoName=""  />
+  </PersonList>
+  <PrizeList>
+    <!--获奖名单-->
+    <Prize>
+      <rankName>特等奖</rankName>
+      <personList>
+        <person>1</person>
+      </personList>
+    </Prize>
+    <Prize>
+      <rankName>一等奖</rankName>
+      <personList>
+        <person>2</person>
+        <person>3</person>
+        <person>4</person>
+      </personList>
+    </Prize>
+    <Prize>
+      <rankName>二等奖</rankName>
+      <personList>
+        <person>5</person>
+        <person>6</person>
+        <person>7</person>
+      </personList>
+    </Prize>
+  </PrizeList>
+</ConfigSet>

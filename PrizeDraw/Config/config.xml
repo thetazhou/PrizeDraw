@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <RankSet>
+    <rank name="三等奖" Set="t2,t1" />
+    <rank name="一等奖" Set="t3" />
+    <rank name="二等奖" Set="t4,t7" />
+  </RankSet>
